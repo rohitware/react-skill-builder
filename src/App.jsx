@@ -1,11 +1,13 @@
 // import './App.css'
+import Demo1 from "./jsx/Demo1";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-      <p>Hello World!</p>
-    </div>
+    <>
+      <div className="App">
+        <Demo1 />
+      </div>
+    </>
   );
 }
 
