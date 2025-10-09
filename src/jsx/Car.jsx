@@ -1,13 +1,13 @@
-function Car() {
-  const myobj = {
-    name: "Fiat",
-    model: "500",
-    color: "white",
-  };
+function Car(props) {
+  // const myobj = {
+  //   name: "Fiat",
+  //   model: "500",
+  //   color: "white",
+  // };
   return (
     <>
       <h1>
-        My car is a {myobj.color} {myobj.name} {myobj.model}
+        My car is a {props.color} {props.name} {props.model}
       </h1>
     </>
   );

@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <Demo1 />
         <JsxExpressions />
-        <Car />
+        <Car name="Fiat" model="500" color="white" />
       </div>
     </>
   );
