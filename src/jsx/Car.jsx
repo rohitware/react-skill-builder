@@ -1,4 +1,5 @@
 function Car(props) {
+  const { color, name, model } = props;
   // const myobj = {
   //   name: "Fiat",
   //   model: "500",
@@ -7,7 +8,7 @@ function Car(props) {
   return (
     <>
       <h1>
-        My car is a {props.color} {props.name} {props.model}
+        My car is a {color} {name} {model}
       </h1>
     </>
   );
