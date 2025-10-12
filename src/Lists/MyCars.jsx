@@ -1,14 +1,20 @@
 import React from "react";
 
 function MyCars() {
-  const cars = ["Ford", "BMW", "Audi"];
+  const cars = [
+    { id: 1001, brand: "Ford" },
+    { id: 1002, brand: "BMW" },
+    { id: 1003, brand: "Audi" },
+  ];
 
   return (
     <>
       <h1>My Cars</h1>
       <ul>
         {cars.map((car) => (
-          <li>{car}</li>
+          <li>
+            {car.id} {car.brand}
+          </li>
         ))}
       </ul>
     </>
