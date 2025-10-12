@@ -12,9 +12,7 @@ function MyCars() {
       <h1>My Cars</h1>
       <ul>
         {cars.map((car) => (
-          <li>
-            {car.id} {car.brand}
-          </li>
+          <li key={car.id}> {car.brand}</li>
         ))}
       </ul>
     </>
