@@ -5,6 +5,7 @@ import Car from "./jsx/Car";
 import MyCars from "./Lists/MyCars";
 import MyForm from "./Forms/MyForm";
 import Counter from "./useState/Counter";
+import Form from "./useState/Form";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <MyCars />
         <MyForm /> */}
         <Counter />
+        <Form />
       </div>
     </>
   );
