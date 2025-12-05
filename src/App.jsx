@@ -6,6 +6,7 @@ import MyCars from "./Lists/MyCars";
 import MyForm from "./Forms/MyForm";
 import Counter from "./useState/Counter";
 import Form from "./useState/Form";
+import Users from "./UseEffect/Users";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         <Car name="Fiat" model="500" color="white" />
         <MyCars />
         <MyForm /> */}
-        <Counter />
-        <Form />
+        {/* <Counter />
+        <Form /> */}
+        <Users />
       </div>
     </>
   );
