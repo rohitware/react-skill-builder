@@ -7,6 +7,8 @@ import MyForm from "./Forms/MyForm";
 import Counter from "./useState/Counter";
 import Form from "./useState/Form";
 import Users from "./UseEffect/Users";
+import Timer from "./UseEffect/Timer";
+import Interval from "./UseEffect/Interval";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
         <MyForm /> */}
         {/* <Counter />
         <Form /> */}
-        <Users />
+        {/* <Users /> */}
+        <Timer />
+        <Interval />
       </div>
     </>
   );
