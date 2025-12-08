@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 function Autofucus() {
   const inputRef = useRef();
   const handleFocus = () => {
-    inputRef.current = focus;
+    inputRef.current.focus();
   };
 
   return (
