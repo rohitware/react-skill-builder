@@ -9,6 +9,7 @@ import Form from "./useState/Form";
 import Users from "./UseEffect/Users";
 import Timer from "./UseEffect/Timer";
 import Interval from "./UseEffect/Interval";
+import Autofucus from "./UseRef/Focus";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
         {/* <Counter />
         <Form /> */}
         {/* <Users /> */}
-        <Timer />
-        <Interval />
+        {/* <Timer />
+        <Interval /> */}
+        <Autofucus />
       </div>
     </>
   );
