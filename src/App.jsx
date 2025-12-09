@@ -10,6 +10,7 @@ import Users from "./UseEffect/Users";
 import Timer from "./UseEffect/Timer";
 import Interval from "./UseEffect/Interval";
 import Autofucus from "./UseRef/Focus";
+import ClickCounter from "./UseRef/ClickCounter";
 
 function App() {
   return (
@@ -20,12 +21,13 @@ function App() {
         <Car name="Fiat" model="500" color="white" />
         <MyCars />
         <MyForm /> */}
-        {/* <Counter />
-        <Form /> */}
+        {/* <Counter /> */}
+        {/* <Form />  */}
         {/* <Users /> */}
         {/* <Timer />
         <Interval /> */}
-        <Autofucus />
+        <Autofucus /> <br />
+        <ClickCounter />
       </div>
     </>
   );
