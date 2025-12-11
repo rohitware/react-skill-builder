@@ -12,6 +12,7 @@ import Interval from "./UseEffect/Interval";
 import Autofucus from "./UseRef/Focus";
 import ClickCounter from "./UseRef/ClickCounter";
 import CountUseRef from "./UseRef/CountUseRef";
+import UserContextProvider from "./UseContext/UserContextProvider";
 
 function App() {
   return (
@@ -27,9 +28,10 @@ function App() {
         {/* <Users /> */}
         {/* <Timer />
         <Interval /> */}
-        <Autofucus /> <br />
-        <ClickCounter />
-        <CountUseRef />
+        {/* <Autofucus /> <br /> */}
+        {/* <ClickCounter /> */}
+        {/* <CountUseRef /> */}
+        <UserContextProvider />
       </div>
     </>
   );
