@@ -13,6 +13,7 @@ import Autofucus from "./UseRef/Focus";
 import ClickCounter from "./UseRef/ClickCounter";
 import CountUseRef from "./UseRef/CountUseRef";
 import UserContextProvider from "./UseContext/UserContextProvider";
+import CounterReducer from "./UseReducer/CoounterReducer";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
         {/* <Autofucus /> <br /> */}
         {/* <ClickCounter /> */}
         {/* <CountUseRef /> */}
-        <UserContextProvider />
+        {/* <UserContextProvider /> */}
+        <CounterReducer />
       </div>
     </>
   );
