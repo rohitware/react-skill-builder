@@ -15,6 +15,7 @@ import CountUseRef from "./UseRef/CountUseRef";
 import UserContextProvider from "./UseContext/UserContextProvider";
 import CounterReducer from "./UseReducer/CounterReducer";
 import CompReducer from "./UseReducer/CompReducer";
+import InputBox from "./useState/InputBox";
 
 function App() {
   return (
@@ -35,8 +36,8 @@ function App() {
         {/* <CountUseRef /> */}
         {/* <UserContextProvider /> */}
         {/* <CounterReducer /> */}
-
-        <CompReducer />
+        {/* <CompReducer /> */}
+        <InputBox />
       </div>
     </>
   );
