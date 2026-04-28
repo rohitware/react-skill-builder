@@ -16,6 +16,7 @@ import UserContextProvider from "./UseContext/UserContextProvider";
 import CounterReducer from "./UseReducer/CounterReducer";
 import CompReducer from "./UseReducer/CompReducer";
 import InputBox from "./useState/InputBox";
+import EveryRender from "./UseEffect/EveryRender";
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
         {/* <UserContextProvider /> */}
         {/* <CounterReducer /> */}
         {/* <CompReducer /> */}
-        <InputBox />
+        <EveryRender />
       </div>
     </>
   );
