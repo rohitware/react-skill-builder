@@ -18,6 +18,7 @@ import CompReducer from "./UseReducer/CompReducer";
 import InputBox from "./useState/InputBox";
 import EveryRender from "./UseEffect/EveryRender";
 import RunOnce from "./UseEffect/RunOnce";
+import Dependency from "./UseEffect/Dependency";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
         {/* <CounterReducer /> */}
         {/* <CompReducer /> */}
         {/* <EveryRender /> */}
-        <RunOnce />
+        {/* <RunOnce /> */}
+        <Dependency />
       </div>
     </>
   );
