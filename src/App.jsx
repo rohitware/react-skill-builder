@@ -17,6 +17,7 @@ import CounterReducer from "./UseReducer/CounterReducer";
 import CompReducer from "./UseReducer/CompReducer";
 import InputBox from "./useState/InputBox";
 import EveryRender from "./UseEffect/EveryRender";
+import RunOnce from "./UseEffect/RunOnce";
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
         {/* <UserContextProvider /> */}
         {/* <CounterReducer /> */}
         {/* <CompReducer /> */}
-        <EveryRender />
+        {/* <EveryRender /> */}
+        <RunOnce />
       </div>
     </>
   );
