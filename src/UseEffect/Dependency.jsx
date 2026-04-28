@@ -4,8 +4,12 @@ function Dependency() {
   const [count, setCount] = useState(0);
   const [name, setName] = useState("");
   useEffect(() => {
-    console.log("Count or Name changed");
-  }, [count, name]);
+    console.log("Count changed", count);
+  }, [count]);
+
+  useEffect(() => {
+    console.log("Name change", name);
+  }, [name]);
   return (
     <>
       <h2>Count: {count}</h2>
