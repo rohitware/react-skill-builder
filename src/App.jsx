@@ -19,6 +19,7 @@ import InputBox from "./useState/InputBox";
 import EveryRender from "./UseEffect/EveryRender";
 import RunOnce from "./UseEffect/RunOnce";
 import Dependency from "./UseEffect/Dependency";
+import TimeoutExample from "./UseEffect/TimeoutExample";
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
         {/* <CompReducer /> */}
         {/* <EveryRender /> */}
         {/* <RunOnce /> */}
-        <Dependency />
+        {/* <Dependency /> */}
+        <TimeoutExample />
       </div>
     </>
   );
