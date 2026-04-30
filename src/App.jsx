@@ -20,6 +20,7 @@ import EveryRender from "./UseEffect/EveryRender";
 import RunOnce from "./UseEffect/RunOnce";
 import Dependency from "./UseEffect/Dependency";
 import TimeoutExample from "./UseEffect/TimeoutExample";
+import IntervalExample from "./UseEffect/IntervalExample";
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
         {/* <EveryRender /> */}
         {/* <RunOnce /> */}
         {/* <Dependency /> */}
-        <TimeoutExample />
+        {/* <TimeoutExample /> */}
+        <IntervalExample />
       </div>
     </>
   );
