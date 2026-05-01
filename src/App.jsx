@@ -39,14 +39,14 @@ function App() {
         {/* <Autofucus /> <br /> */}
         {/* <ClickCounter /> */}
         {/* <CountUseRef /> */}
-        {/* <UserContextProvider /> */}
+        <UserContextProvider />
         {/* <CounterReducer /> */}
         {/* <CompReducer /> */}
         {/* <EveryRender /> */}
         {/* <RunOnce /> */}
         {/* <Dependency /> */}
         {/* <TimeoutExample /> */}
-        <IntervalExample />
+        {/* <IntervalExample /> */}
       </div>
     </>
   );
