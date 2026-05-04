@@ -21,6 +21,8 @@ import RunOnce from "./UseEffect/RunOnce";
 import Dependency from "./UseEffect/Dependency";
 import TimeoutExample from "./UseEffect/TimeoutExample";
 import IntervalExample from "./UseEffect/IntervalExample";
+import RefExample from "./UseRef/RefExample";
+import UseStateVsUseRef from "./UseRef/UseStateVsUseRef";
 
 function App() {
   return (
@@ -39,7 +41,7 @@ function App() {
         {/* <Autofucus /> <br /> */}
         {/* <ClickCounter /> */}
         {/* <CountUseRef /> */}
-        <UserContextProvider />
+        {/* <UserContextProvider /> */}
         {/* <CounterReducer /> */}
         {/* <CompReducer /> */}
         {/* <EveryRender /> */}
@@ -47,6 +49,8 @@ function App() {
         {/* <Dependency /> */}
         {/* <TimeoutExample /> */}
         {/* <IntervalExample /> */}
+        <RefExample />
+        <UseStateVsUseRef />
       </div>
     </>
   );
