@@ -23,6 +23,7 @@ import TimeoutExample from "./UseEffect/TimeoutExample";
 import IntervalExample from "./UseEffect/IntervalExample";
 import RefExample from "./UseRef/RefExample";
 import UseStateVsUseRef from "./UseRef/UseStateVsUseRef";
+import UseMemoExample from "./UseMemo/UseMemoExample";
 
 function App() {
   return (
@@ -49,8 +50,9 @@ function App() {
         {/* <Dependency /> */}
         {/* <TimeoutExample /> */}
         {/* <IntervalExample /> */}
-        <RefExample />
-        <UseStateVsUseRef />
+        {/* <RefExample /> */}
+        {/* <UseStateVsUseRef /> */}
+        <UseMemoExample />
       </div>
     </>
   );
