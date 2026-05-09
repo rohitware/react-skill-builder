@@ -24,6 +24,7 @@ import IntervalExample from "./UseEffect/IntervalExample";
 import RefExample from "./UseRef/RefExample";
 import UseStateVsUseRef from "./UseRef/UseStateVsUseRef";
 import UseMemoExample from "./UseMemo/UseMemoExample";
+import Parent from "./useCallback/Parent";
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
         {/* <IntervalExample /> */}
         {/* <RefExample /> */}
         {/* <UseStateVsUseRef /> */}
-        <UseMemoExample />
+        {/* <UseMemoExample /> */}
+        <Parent />
       </div>
     </>
   );
