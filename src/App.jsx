@@ -25,7 +25,7 @@ import RefExample from "./UseRef/RefExample";
 import UseStateVsUseRef from "./UseRef/UseStateVsUseRef";
 import UseMemoExample from "./UseMemo/UseMemoExample";
 import Parent from "./useCallback/Parent";
-import MyCar from "./useState/multiple-states";
+import MyCar from "./useState/object-state";
 
 function App() {
   return (
