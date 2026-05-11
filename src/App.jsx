@@ -25,6 +25,7 @@ import RefExample from "./UseRef/RefExample";
 import UseStateVsUseRef from "./UseRef/UseStateVsUseRef";
 import UseMemoExample from "./UseMemo/UseMemoExample";
 import Parent from "./useCallback/Parent";
+import MyCar from "./useState/multiple-states";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <MyForm /> */}
         {/* <Counter /> */}
         {/* <Form />  */}
+        {/* <InputBox /> */}
         {/* <Users /> */}
         {/* <Timer />
         <Interval /> */}
@@ -54,7 +56,8 @@ function App() {
         {/* <RefExample /> */}
         {/* <UseStateVsUseRef /> */}
         {/* <UseMemoExample /> */}
-        <Parent />
+        {/* <Parent /> */}
+        <MyCar />
       </div>
     </>
   );
