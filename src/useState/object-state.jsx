@@ -10,18 +10,27 @@ export default function MyCar() {
 
   const updateColor = () => {
     setCar((previousState) => {
-      return { ...previousState, color: "blur" };
+      return { ...previousState, color: "blue" };
+    });
+  };
+
+  const updateModel = () => {
+    setCar((previousState) => {
+      return { ...previousState, model: "xyz" };
     });
   };
   return (
     <>
       <h1>Brand is : {car.brand}</h1>
       <p>
-        it is {car.color} {car.model} and manufactur in {car.year}.
+        it is {car.color} {car.model} and manufactured in {car.year}.
       </p>
 
       <button type="button" onClick={updateColor}>
-        Blue
+        Update Color
+      </button>
+      <button type="button" onClick={updateModel}>
+        Update model
       </button>
     </>
   );
